@@ -13,14 +13,7 @@ Este projeto tem como objetivo converter arquivos DOC (Word) em PDF de forma rá
 - Node.js
 - Express
 - Bibliotecas de conversão DOC → PDF (ex: `docx-pdf`)
+- Html
+- Css 
 
-## Como usar
 
-### Pré-requisitos
-- Node.js instalado ([baixar aqui](https://nodejs.org/))
-- npm (gerenciador de pacotes do Node.js)
-
-### Instalação
-1. Clone o repositório:
-```bash
-git clone https://github.com/ThaissMatoss/DOC-para-PDF-.git
