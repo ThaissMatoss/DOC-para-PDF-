@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página com fundo azul e centralização */
+body {
+  background-color: blue;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caixa central */
+form {
+  background-color: rgba(255, 255, 255, 0.15); /* branco transparente */
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Estilo do título */
+#titulo {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+
+.custom-file-button {
+  background-color: white;
+  color: blue;
+  padding: 15px 40px;       /* deixa maior */
+  border-radius: 40px;      /* bordas mais arredondadas */
+  font-weight: bold;
+  font-size: 18px;          /* texto maior */
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra leve */
+}
+
+.custom-file-button:hover {
+  background-color: #eee;   /* muda a cor no hover */
+}
+
+
+/* Estilo do botão */
+button {
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
